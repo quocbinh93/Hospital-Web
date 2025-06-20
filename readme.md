@@ -148,8 +148,8 @@ Truy cập ứng dụng tại: `http://localhost:3000`
 
 | Method | Endpoint               | Mô tả               | Auth |
 | ------ | ---------------------- | ------------------- | ---- |
-| POST   | /api/auth/register     | Đăng ký             | ❌    |
-| POST   | /api/auth/login        | Đăng nhập           | ❌    |
+| POST   | /api/auth/register     | Đăng ký             | ✅    |
+| POST   | /api/auth/login        | Đăng nhập           | ✅    |
 | GET    | /api/patients          | Danh sách bệnh nhân | ✅    |
 | POST   | /api/patients          | Thêm mới bệnh nhân  | ✅    |
 | GET    | /api/appointments      | Danh sách lịch hẹn  | ✅    |

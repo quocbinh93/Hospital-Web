@@ -1,0 +1,42 @@
+# Bỏ qua node_modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bỏ qua file môi trường
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bỏ qua log files
+logs
+*.log
+
+# Bỏ qua coverage directory
+coverage/
+
+# Bỏ qua build folder
+build/
+dist/
+
+# Bỏ qua IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Bỏ qua OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Bỏ qua uploads
+uploads/
+temp/
